@@ -2,12 +2,6 @@
 
 Aplicación de reconocimiento de voz en tiempo real usando AssemblyAI y interfaz gráfica con Tkinter.
 
-## Requisitos
-
-- Python 3.8+
-- Micrófono
-- Conexión a internet
-- API key de AssemblyAI
 
 ## Instalación
 
@@ -40,11 +34,6 @@ python main.py
 - **"Apaga motor"** - Apaga el motor (cambia a OFF)
 - **"Salir"** - Cierra la aplicación
 
-## Estructura del Proyecto
 
-- `main.py` - Clase principal de la aplicación
-- `modules/audio_manager.py` - Grabación y transcripción
-- `modules/gui_manager.py` - Interfaz gráfica
-- `modules/command_processor.py` - Procesamiento de comandos
 - `api_key.env` - API KEY que no se sube a Github
 
